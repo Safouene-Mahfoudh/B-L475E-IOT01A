@@ -1,6 +1,6 @@
 
 > Author  
-> ![Image](https://github.com/Safouene-Mahfoudh/Safouene-Mahfoudh.github.io/blob/main/static/media/profile.bf152a3f.jpg) [Safouene Mahfoudh](https://github.com/Safouene-Mahfoudh)
+> [Safouene Mahfoudh](https://github.com/Safouene-Mahfoudh)
 
 
 
