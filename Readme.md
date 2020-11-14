@@ -14,5 +14,5 @@
 The values of the different sensors are sent in this order :  Accelerometer, Magnetometer , Humidity ,Temperature.    
 
 
-* In the folder **Mag_Acc_Gyro_Humdity_Temperature** you can find a program wich we can read The values of sensors (Accelerometer, Magnetometer , Gyroscope , Humidity,Temperature,Pressure).  
+* In the folder **Mag_Acc_Gyro_Humdity_Temperature_Pressure** you can find a program wich we can read The values of sensors (Accelerometer, Magnetometer , Gyroscope , Humidity,Temperature,Pressure).  
 the values of the different sensors are sent in this order :  Accelerometer, Magnetometer,Gyroscope, Humidity ,Temperature ,Pressure.
