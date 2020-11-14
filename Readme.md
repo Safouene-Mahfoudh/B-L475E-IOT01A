@@ -9,8 +9,10 @@
 
 
 
-### B-L475E-IOT01A (With Arduino IDE )
-The values of the different sensors are sent in this order :  Accelerometer, Magnetometer , Gyroscope , Humidity ,Temperature
+### B-L475E-IOT01A   
+In the folder Mag_Acc_Humdity_Temperature_with_Arduino you can find a program written with Arduino IDE wich we can read The values of sensors (Accelerometer, Magnetometer , Gyroscope , Humidity and Temperature).        
+The values of the different sensors are sent in this order :  Accelerometer, Magnetometer , Gyroscope , Humidity ,Temperature.    
 
-### B-L475E-IOT01A
-The values of the different sensors are sent in this order :  Accelerometer, Magnetometer , Gyroscope , Humidity ,Temperature ,Pressure
+
+In the folder Mag_Acc_Gyro_Humdity_Temperature you can find a program wich we can read The values of sensors (Accelerometer, Magnetometer , Gyroscope , Humidity and Temperature).  
+The values of the different sensors are sent in this order :  Accelerometer, Magnetometer, Humidity ,Temperature ,Pressure
