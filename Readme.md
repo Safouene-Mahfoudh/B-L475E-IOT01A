@@ -15,4 +15,8 @@ The values of the different sensors are sent in this order :  Accelerometer, Mag
 
 
 * In the folder **Mag_Acc_Gyro_Humdity_Temperature_Pressure** you can find a program wich we can read The values of sensors (Accelerometer, Magnetometer , Gyroscope , Humidity,Temperature,Pressure).  
-the values of the different sensors are sent in this order :  Accelerometer, Magnetometer,Gyroscope, Humidity ,Temperature ,Pressure.
+the values of the different sensors are sent in this order :  Accelerometer, Magnetometer,Gyroscope, Humidity ,Temperature ,Pressure.  
+
+* In the folder **Moving_Servo_With_Accelerometer** you can find a program wich we control servo motor using STM32B-L475E-IOT01A Accelerometer sensor.  
+
+
