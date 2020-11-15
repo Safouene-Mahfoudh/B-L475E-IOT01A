@@ -27,7 +27,7 @@ First we will start to explain how servos work. Servos can go from 0 to 180 degr
  To know more about PWM and how to calculate a PWM signal period you can visit this [link](https://github.com/Safouene-Mahfoudh/STM32F429I/blob/main/Confguration_Of%20_PWM_With_Values_30_50_100/Readme.md).
 
  For example,we want to give a pulse width of 1 ms, (1x1000/20) = 50%, we write **htim4.Instance->CCR3 = 50**. For 2 ms, It will be 100%, and for 1.5 ms, It will be 75%.  
- The reason why we choosed 1000 because it will act as 1000% Pulse Width and if we want to change the Pulse Width to any other value, all we have to do is write X% to CCR3 register.  
+ The reason why we choosed 1000 because it will act as 1000% Pulse Width and if we want to change the Pulse Width to any other value, all we have to do is write x% to CCR3 register.  
 
 
  Finnaly you can generate the your code.  
