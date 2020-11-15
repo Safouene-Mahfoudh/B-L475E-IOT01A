@@ -12,12 +12,12 @@ First we will start to explain how servos work. Servos can go from 0 to 180 degr
 * 1.5 milliseconds and corresponds to 90 degrees.    
 * 2 milliseconds and corresponds to 180 degrees.    
 
-* The period between two pulses must be 20ms or we can say the frequency of the pulse must be 50 Hz.  
+* The period between two pulses must be **20ms** or we can say the frequency of the pulse must be **50 Hz**.  
 
 
  Then we need to configurate our timer using STM32CubeMX. We will use TIM4 of the STM32B-L475E-IOT01A. I didn't check where TIM4 is connected (on wich bus APB1 or AB2) so i set the clock such that my TIM4 gets only 8 MHz on APB1 and APB2. My setup is bellow:  
- ![Timer](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A).  
- ![Clock](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A)
+ ![Timer](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/blob/main/Moving_Servo_With_Accelerometer/Servo/Timer.png).  
+ ![Clock](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/blob/main/Moving_Servo_With_Accelerometer/Servo/Clock.png).
 
   
 
@@ -26,8 +26,8 @@ First we will start to explain how servos work. Servos can go from 0 to 180 degr
  As I mentioned above that the frequency must be 50 Hz, we need to divide the clock using prescalar and the ARR registers. Let’s calculate : ( 8MHz/50 Hz) = 160000 KHz. So now to get a  50 Hz of frequency, We need to divide this 160000 KHz between Prescalar and ARR. So we write 160-1 (**TIM_Period = timer_tick_frequency / PWM_frequency - 1**) in prescalar Register and 1000 in ARR.  
  To know more about PWM and how to calculate a PWM signal period you can visit this [link](https://github.com/Safouene-Mahfoudh/STM32F429I/blob/main/Confguration_Of%20_PWM_With_Values_30_50_100/Readme.md).
 
- For example,we want to give a pulse width of 1 ms i.e. (1x1000/20) = 50%, we write **htim4.Instance->CCR3 = 50**. For 2 ms, It will be 100%, and for 1.5 ms, It will be 75%.  
- The reason why we choosed this 1000 because it will act as 1000% Pulse Width and if we want to change the Pulse Width to any other value, all we have to do is write X% to CCR3 register.  
+ For example,we want to give a pulse width of 1 ms, (1x1000/20) = 50%, we write **htim4.Instance->CCR3 = 50**. For 2 ms, It will be 100%, and for 1.5 ms, It will be 75%.  
+ The reason why we choosed 1000 because it will act as 1000% Pulse Width and if we want to change the Pulse Width to any other value, all we have to do is write X% to CCR3 register.  
 
 
  Finnaly you can generate the your code.  
