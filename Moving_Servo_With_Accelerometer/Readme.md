@@ -47,6 +47,7 @@ The Commande to start the PWM on CCR3 is :
 **HAL_TIM_PWM_Start( &htim4, TIM_CHANNEL_3 );**
 
 During the execution of the main program, it is sometimes necessary to modify the Duty Cycle, So two instructions from the 
-**__HAL** library will be needed to vary duty_cycle :
-**__HAL_TIM_GET_AUTORELOAD(&htim4);**
+**__HAL** library will be needed to vary duty_cycle :  
+
+**__HAL_TIM_GET_AUTORELOAD(&htim4);**  
 **__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_3, duty_cycle);**
