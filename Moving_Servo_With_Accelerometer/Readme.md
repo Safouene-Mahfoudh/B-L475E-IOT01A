@@ -30,7 +30,7 @@ First we will start to explain how servos work. Servos can go from 0 to 180 degr
  The reason why we choosed 1000 because it will act as 1000% Pulse Width and if we want to change the Pulse Width to any other value, all we have to do is write x% to CCR3 register.  
 
 
- Finnaly you can generate the your code.  
+ Finnaly you can generate your code.  
 
  As we know the Servo move from 0° to 180° , we must convert the accelerometer's value in sush a way when we move the accelerometer, the angle of the servo change also, and to do this conversion we can use the map function which we quite often use in different embedded systems applications. The map function is commonly used as a built-in Arduino C function and it’s very handy in a wide range of applications. Mathematically, the mapping function is to find the corresponding value from a certain domain to another domain.  
  
