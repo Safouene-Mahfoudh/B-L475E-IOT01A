@@ -31,10 +31,6 @@ int16_t map(int16_t IN, int16_t INmin, int16_t INmax, int16_t OUTmin, int16_t OU
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-TIM_HandleTypeDef htim4;
-UART_HandleTypeDef huart1;
-
-
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
