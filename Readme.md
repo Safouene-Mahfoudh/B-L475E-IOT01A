@@ -21,5 +21,8 @@ the values of the different sensors are sent in this order :  Accelerometer, Mag
 
 * In the folder **Moving_The_Servo_Motor_Using_Your_Hand** you can find a program wich we can control a servo motor using STM32B-L475E-IOT01A Proximity sensor.  
 
+* In the folder **Display_The_Rotation_Degree_of_Servo_in_Real_Time** you can find a program wich we can see in real time the rotation degree of servo motor.  
+  
+
 
 
