@@ -8,7 +8,7 @@ In this example I used the values of the proximity sensor of B-L475E-IOT01A , So
 
 This is the interface how is looking :  
 
-![Interface](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/Servo_Rotation).  
+![Interface](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/blob/main/Display_The_Rotation_Degree_of_Servo_in_Real_Time/interface.png).  
 
 Remember that Servos can go from 0 to 180 degrees depending on the width of the pulse.So you need to keep the pulse (+5v) high for a particular amount of time. Few are listed bellow:
 
