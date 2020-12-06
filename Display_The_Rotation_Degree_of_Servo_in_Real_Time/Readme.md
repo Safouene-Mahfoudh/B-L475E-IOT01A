@@ -21,6 +21,6 @@ Remember that Servos can go from 0 to 180 degrees depending on the width of the 
 To know more about how to give a Pulse Width you can visit this [link](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/blob/main/Moving_The_Servo_Motor_Using_Your_Hand/Readme.md) or this [link](https://github.com/Safouene-Mahfoudh/B-L475E-IOT01A/blob/main/Moving_Servo_With_Accelerometer/Readme.md)
 To know more about PWM and how to calculate a PWM signal period you can visit this [link](https://github.com/Safouene-Mahfoudh/STM32F429I/blob/main/Confguration_Of%20_PWM_With_Values_30_50_100/Readme.md).  
 
-As mentionned above on the interface , you can see **Pulse Width** wich is represent the pulse width sent in real time to our interface.So when the Pulse Width is changed the Servo turn in a specific direction and we can see the rotation of the Servo in real time.  
+As mentionned above on the interface , you can see **Pulse Width** wich represents the pulse width sent immediately to the interface .When the Pulse Width is changing the Servo turns in a specific direction And the interface shows the rotation in real time. 
 
 
